@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pyre</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Landing Page -->
+<div id="landing">
+  <h1>Pyre</h1>
+  <p>A gentle reset, one day at a time.</p>
+  <button id="startBtn">Begin Your Reset</button>
+</div>
+
+<!-- Questionnaire -->
+<div id="questionnaire" class="hidden">
+  <h2>Tell us about yourself</h2>
+  <form id="questionForm">
+    <div id="questionsContainer"></div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<!-- Flame Page -->
+<div id="flamePage" class="hidden">
+  <h2>Your Flame</h2>
+  <canvas id="flameCanvas" width="200" height="200"></canvas>
+  <div id="dailyTask">
+    <p id="taskText"></p>
+    <button id="completeTaskBtn">I completed this</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
